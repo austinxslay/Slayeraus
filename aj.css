@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body with One Piece colors */
+body {
+    background-color: #0F3056; /* Deep ocean blue */
+    color: blanchedalmond;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: #ffcc00; /* blue like sky */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #d32f2f;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #9bcaff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+}
+
+/* Sections */
+section {
+    padding: 50px;
+    margin: 20px;
+    background-color: #9bcaff;
+    border-radius: 10px;
+}
+
+/* Straw Hat Crew List */
+.crew-list {
+    list-style: none;
+    font-size: 18px;
+    padding: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #0f3045;
+    color: #9bcaff;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
